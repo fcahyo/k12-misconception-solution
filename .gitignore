@@ -1,0 +1,22 @@
+# Competition data, intermediate artefacts and weights never go into git
+/data/
+/runs/
+/outputs/
+/work/
+*.npy
+*.npz
+*.safetensors
+*.bin
+*.pt
+*.jsonl
+*.log
+.venv*/
+__pycache__/
+*.pyc
+/fits/
+/logs/
+/download/
+/.rows_run
+/.training_run
+/.test_set
+/reference/

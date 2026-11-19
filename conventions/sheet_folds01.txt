@@ -1,0 +1,9 @@
+Annotator conventions:
+1. ROOT = the earliest MAJOR error the rest follows from; minor looseness is never the root.
+2. Final answer wrong, missing or unfinished → almost never NONE (≈2%): name the error. Final answer correct → usually NONE (≈96%).
+3. FRM-01 = a wrong formula or procedure step when no more specific code fits (e.g. a slip inside the LCM/GCF ladder method, a wrong set-up equation).
+4. CAL-01 = a one-step numeric or copy slip (a single wrong sum such as −48 + 25 = −25, a dropped term while expanding). Column carry/borrow → OPS-01; long-division steps → OPS-02. Systematic sign handling with negatives (a minus sign dropped when combining terms, moving the wrong way on a number line) → INT-04.
+5. ANS-01 = correct work that stops short (intermediate value given, not converted to the requested form, or no conclusion stated). ANS-02 = the mirror: a final value processed further, or a value confused with a related quantity (a total used as one category).
+6. EXP-07 = surd arithmetic/simplification (√8 = 4, √9 = 3√3, 9√25 left unsimplified, rationalising a denominator). EXP-04 = roots ↔ fractional or negative exponents, and a root applied to a whole product or sum (9^(−1/2), ∛(a·√a)).
+7. WOP-01 = situation misread → wrong operation (arithmetic itself right). WOP-02 = a given number used in the wrong role or a distractor used as an operand.
+8. KPF-01 = KPK (LCM) used where FPB (GCF) is needed, or vice versa. Errors inside a correct LCM/GCF ladder procedure → FRM-01.
